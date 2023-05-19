@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Age calculator app</title>
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <main class="container">
+            <section class="form-section">
+                <form class="form" id="form">
+                    <div class="form-item" id="form-item-day">
+                        <label for="day">DAY</label>
+                        <input
+                            class="input-item"
+                            type="number"
+                            id="day"
+                            name="day"
+                            placeholder="DD"
+                        />
+                        <small></small>
+                    </div>
+
+                    <div class="form-item" id="form-item-month">
+                        <label for="month">MONTH</label>
+                        <input
+                            class="input-item"
+                            type="number"
+                            id="month"
+                            name="month"
+                            placeholder="MM"
+                        />
+                        <small></small>
+                    </div>
+
+                    <div class="form-item" id="form-item-year">
+                        <label for="year">YEAR</label>
+                        <input
+                            class="input-item"
+                            type="number"
+                            id="year"
+                            name="year"
+                            placeholder="YYYY"
+                        />
+                        <small></small>
+                    </div>
+                </form>
+            </section>
+            <section class="divider-section">
+                <div class="line"></div>
+                <button class="circle" id="arrow-button">
+                    <img src="assets/images/icon-arrow.svg" alt="Arrow image" />
+                </button>
+            </section>
+            <section class="age-calculated-section">
+                <p><span id="years-result">--</span>years</p>
+                <p><span id="months-result">--</span>months</p>
+                <p><span id="days-result">--</span>days</p>
+            </section>
+        </main>
+
+        <footer class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/bluefishh" target="_blank">bluefish</a>.
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
