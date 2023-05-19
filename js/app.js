@@ -90,7 +90,7 @@ const formValidator = (day, month, year) => {
     if (month == "" || month < 1 || month > 12) {
         if (month == "") {
             applyErrorStyles(
-                "The field day is required",
+                "The field month is required",
                 "month",
                 "block",
                 "var(--light-red)",
