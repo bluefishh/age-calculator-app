@@ -10,6 +10,8 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a decent understanding of HTML, CSS and JavaScript.**
 
+Visit the website deployed with this challenge: https://bluefishh.github.io/age-calculator-app/
+
 ## The challenge
 
 Your challenge is to build out this age calculator app and get it looking as close to the design as possible.
